@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enviar mensagem</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Enviar mensagem</h1>
+	<form method="POST" action="/enviar">
+		<label for="numero">Número do destinatário:</label>
+		<input type="tel" name="numero" id="numero" required>
+		<label for="mensagem">Mensagem:</label>
+		<textarea name="mensagem" id="mensagem" required></textarea>
+		<button type="submit">Enviar</button>
+	</form>
+    <script src="script.py"></script>
+</body>
+</html>
